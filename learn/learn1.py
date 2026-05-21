@@ -38,3 +38,4 @@ for t in range(block_size):
     context = x[:t+1]
     target = y[t]
     print(f"when input is {context} the target is {target}")
+
